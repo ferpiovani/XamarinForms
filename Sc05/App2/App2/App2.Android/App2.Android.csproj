@@ -85,19 +85,10 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="play.png" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\App2\App2.csproj">
       <Project>{43BA15DF-269C-4E3F-84F9-90851AA77D22}</Project>
       <Name>App2</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\phone.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\play.png" />

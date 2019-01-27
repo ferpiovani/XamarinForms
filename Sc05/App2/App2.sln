@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App2.Android", "App2\App2.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App2.iOS", "App2\App2.iOS\App2.iOS.csproj", "{4869145B-C198-46D6-B965-E1F74CDED8A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App2", "App2\App2\App2.csproj", "{C8067227-7BC7-475D-8EAA-98226C328035}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App2", "App2\App2\App2.csproj", "{C8067227-7BC7-475D-8EAA-98226C328035}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,9 +43,9 @@ Global
 		{F7E696F7-9F0C-4E1D-BA81-DA701E8B93A5}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{F7E696F7-9F0C-4E1D-BA81-DA701E8B93A5}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
 		{F7E696F7-9F0C-4E1D-BA81-DA701E8B93A5}.AppStore|iPhoneSimulator.Deploy.0 = Release|Any CPU
-		{F7E696F7-9F0C-4E1D-BA81-DA701E8B93A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7E696F7-9F0C-4E1D-BA81-DA701E8B93A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7E696F7-9F0C-4E1D-BA81-DA701E8B93A5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F7E696F7-9F0C-4E1D-BA81-DA701E8B93A5}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E696F7-9F0C-4E1D-BA81-DA701E8B93A5}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{F7E696F7-9F0C-4E1D-BA81-DA701E8B93A5}.Debug|Any CPU.Deploy.0 = Release|Any CPU
 		{F7E696F7-9F0C-4E1D-BA81-DA701E8B93A5}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{F7E696F7-9F0C-4E1D-BA81-DA701E8B93A5}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{F7E696F7-9F0C-4E1D-BA81-DA701E8B93A5}.Debug|iPhone.Deploy.0 = Debug|Any CPU

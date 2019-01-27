@@ -23,7 +23,14 @@ namespace App2.TipoPagina.Carousel
 
         private void LoadImage(string img)
         {
-
+            try
+            {
+                Btn.Image = img;
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("", ex.ToString(), "OK");
+            }
         }
 
         private void MudarPagina (object sender, EventArgs args)
