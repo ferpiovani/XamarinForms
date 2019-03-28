@@ -1,12 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CCAgenda.UI.Content.Recent">
+             xmlns:image="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             x:Class="CCAgenda.UI.Content.Recent"
+             BackgroundColor="White">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout Orientation="Horizontal" BackgroundColor="LightCyan">
+                <image:CircleImage Source="C:\Github\XamarinForms\Sc05\CCAgenda\CCAgenda\CCAgenda.Android\Resources\drawable\FB_IMG_1535194656404.jpg"
+                      Aspect="AspectFill" Margin="0,0,8,0" WidthRequest="40" BorderThickness="3" HorizontalOptions="EndAndExpand" BorderColor="DarkGreen" ></image:CircleImage>
+                <StackLayout>
+                    <Label x:Name="Nome" Style="{StaticResource labelCards}"/>
+                    <Label Text="17:00 - Hoje" Style="{StaticResource labelCards}" />
+                </StackLayout>
+                <ImageButton Style="{StaticResource imageButtonCards}" Source="C:\Github\XamarinForms\Sc05\CCAgenda\CCAgenda\CCAgenda.Android\Resources\drawable\phone.png"/>
+                
+            </StackLayout>
+
+            <StackLayout Style="{StaticResource stackLayoutCards}" >
+                <image:CircleImage Source="C:\Github\XamarinForms\Sc05\CCAgenda\CCAgenda\CCAgenda.Android\Resources\drawable\FB_IMG_1535194656404.jpg"
+                      Aspect="AspectFill" Margin="0,0,8,0" WidthRequest="40" BorderThickness="3" HorizontalOptions="EndAndExpand" BorderColor="DarkGreen" ></image:CircleImage>
+                <StackLayout>
+                    <Label Text="Luis Fernando Piovani" Style="{StaticResource labelCards}"/>
+                    <Label Text="17:00 - Hoje" Style="{StaticResource labelCards}" />
+                </StackLayout>
+                <ImageButton Style="{StaticResource imageButtonCards}" Source="C:\Github\XamarinForms\Sc05\CCAgenda\CCAgenda\CCAgenda.Android\Resources\drawable\phone.png"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

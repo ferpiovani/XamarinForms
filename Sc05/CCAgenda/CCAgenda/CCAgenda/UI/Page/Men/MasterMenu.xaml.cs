@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace CCAgenda.UI.Content.Patient
+namespace CCAgenda.UI.Page.Men
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class PatResume : ContentPage
+	public partial class MasterMenu : MasterDetailPage
 	{
-		public PatResume ()
+		public MasterMenu ()
 		{
 			InitializeComponent ();
 		}

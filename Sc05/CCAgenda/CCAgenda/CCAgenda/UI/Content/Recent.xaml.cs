@@ -14,7 +14,14 @@ namespace CCAgenda.UI.Content
 	{
 		public Recent ()
 		{
-			InitializeComponent ();
-		}
+            InitializeComponent ();
+            TesteBanco();
+
+        }
+
+        public void TesteBanco()
+        {
+            Nome.Text = new DAL.DBConn().getName;
+        }
 	}
 }

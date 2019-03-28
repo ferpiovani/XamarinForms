@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:image="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             x:Class="CCAgenda.UI.Content.Patient.PatSearch"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Entry Text="Isso deveria ser a porra do SearchBar" HorizontalOptions="CenterAndExpand" TextColor="Black" />
+            </StackLayout>
+            <StackLayout>
+                <Label Text="L" Margin="10,0,0,0" Style="{StaticResource labelAlphaLetter}"/>
+                <BoxView Margin="10,0,10,0" HeightRequest="1.5" Color="Black" HorizontalOptions="FillAndExpand"/>
+
+                <StackLayout Orientation="Horizontal" BackgroundColor="LightCyan">
+                    <image:CircleImage Source="C:\Github\XamarinForms\Sc05\CCAgenda\CCAgenda\CCAgenda.Android\Resources\drawable\FB_IMG_1535194656404.jpg"
+                      Aspect="AspectFill" Margin="8,0,0,0" WidthRequest="40" BorderThickness="3" HorizontalOptions="StartAndExpand" BorderColor="DarkGreen" ></image:CircleImage>
+                    <StackLayout>
+                        <Label Text="Luis Fernando Piovani" Style="{StaticResource labelCards}"/>
+                        <Label Text="Última Seção: 11/12/2018" Style="{StaticResource labelCards}" />
+                    </StackLayout>
+                    <ImageButton Style="{StaticResource imageButtonCards}" Source="C:\Github\XamarinForms\Sc05\CCAgenda\CCAgenda\CCAgenda.Android\Resources\drawable\phone.png"/>
+                </StackLayout>
+                
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CCAgenda.UI.Content.Scheduele.Calendar"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid RowSpacing="0" ColumnSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+
+                </Grid.ColumnDefinitions>
+                <BoxView Style="{StaticResource boxViewCalendarDaysEx}" Grid.Column="0"/>
+                <Label Style="{StaticResource labelCalendarDaysEx}" Text="D"  Grid.Column="0" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDaysEx}" Grid.Column="1"/>
+                <Label Style="{StaticResource labelCalendarDaysEx}" Text="S"  Grid.Column="1" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDaysEx}" Grid.Column="2"/>
+                <Label Style="{StaticResource labelCalendarDaysEx}" Text="T"   Grid.Column="2" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDaysEx}" Grid.Column="3"/>
+                <Label Style="{StaticResource labelCalendarDaysEx}" Text="Q" Grid.Column="3" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDaysEx}" Grid.Column="4"/>
+                <Label Style="{StaticResource labelCalendarDaysEx}" Text="Q"  Grid.Column="4" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDaysEx}" Grid.Column="5"/>
+                <Label Style="{StaticResource labelCalendarDaysEx}" Text="S"   Grid.Column="5" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDaysEx}" Grid.Column="6"/>
+                <Label Style="{StaticResource labelCalendarDaysEx}" Text="S"  Grid.Column="6" />
+
+
+
+                <Label VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="#ff3b30" FontSize="20" Text="MAR" Grid.Row="1"  Grid.Column="3" />
+                <BoxView Style="{StaticResource boxViewCalendarDays}" Grid.Row="1" Grid.Column="3" />
+
+
+                <BoxView Style="{StaticResource boxViewCalendarDays}"  Grid.Row="2" Grid.Column="0"/>
+                <Label Style="{StaticResource labelCalendarDays}" Text="1" Grid.Row="2"  Grid.Column="0" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDays}" Grid.Row="2" Grid.Column="1"/>
+                <Label Style="{StaticResource labelCalendarDays}" Text="2" Grid.Row="2"  Grid.Column="1" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDays}" Grid.Row="2" Grid.Column="2"/>
+                <Label Style="{StaticResource labelCalendarDays}" Text="3" Grid.Row="2"  Grid.Column="2" />
+
+
+                <BoxView Style="{StaticResource boxViewCalendarDays}" Grid.Row="2" Grid.Column="3"/>
+                <Label Style="{StaticResource labelCalendarDays}" Text="4" Grid.Row="2"  Grid.Column="3" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDays}" Grid.Row="2" Grid.Column="4"/>
+                <Label Style="{StaticResource labelCalendarDays}" Text="5" Grid.Row="2"  Grid.Column="4" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDays}" Grid.Row="2" Grid.Column="5"/>
+                <Label Style="{StaticResource labelCalendarDays}" Text="6" Grid.Row="2"  Grid.Column="5" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDays}" Grid.Row="2" Grid.Column="6"/>
+                <Label Style="{StaticResource labelCalendarDays}" Text="7" Grid.Row="2"  Grid.Column="6" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDays}" Grid.Row="3" Grid.Column="0"/>
+                <Label Style="{StaticResource labelCalendarDays}" Text="8" Grid.Row="3"  Grid.Column="0" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDays}" Grid.Row="3" Grid.Column="1"/>
+                <Label Style="{StaticResource labelCalendarDays}" Text="9" Grid.Row="3"  Grid.Column="1" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDays}" Grid.Row="3" Grid.Column="2"/>
+                <Label Style="{StaticResource labelCalendarDays}" Text="10" Grid.Row="3"  Grid.Column="2" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDays}" Grid.Row="3" Grid.Column="3"/>
+                <Label Style="{StaticResource labelCalendarDays}" Text="11" Grid.Row="3"  Grid.Column="3" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDays}" Grid.Row="3" Grid.Column="4"/>
+                <Label Style="{StaticResource labelCalendarDays}" Text="12" Grid.Row="3"  Grid.Column="4" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDays}" Grid.Row="3" Grid.Column="5"/>
+                <Label Style="{StaticResource labelCalendarDays}" Text="13" Grid.Row="3"  Grid.Column="5" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDays}" Grid.Row="3" Grid.Column="6"/>
+                <Label Style="{StaticResource labelCalendarDays}" Text="14" Grid.Row="3"  Grid.Column="6" />
+
+                <BoxView Style="{StaticResource boxViewCalendarDays}" Grid.Row="4" Grid.Column="0"/>
+                <Label Style="{StaticResource labelCalendarDays}" Text="15" Grid.Row="4"  Grid.Column="0" />
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

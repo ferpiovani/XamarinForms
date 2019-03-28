@@ -11,7 +11,7 @@ namespace CCAgenda
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new UI.Content.Recent();
         }
 
         protected override void OnStart()

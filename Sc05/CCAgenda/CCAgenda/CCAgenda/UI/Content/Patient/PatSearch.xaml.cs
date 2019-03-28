@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Forms;
-using ImageCircle;
 
-namespace CCAgenda
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace CCAgenda.UI.Content.Patient
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class PatSearch : ContentPage
     {
-        public MainPage()
+        public PatSearch()
         {
             InitializeComponent();
         }
